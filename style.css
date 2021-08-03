@@ -1,0 +1,62 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+:root {
+    --cor1: #4361ee;
+    --cor2: #fff;
+}
+
+body {
+    font-family: 'Sofia Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+h1, h2, input, button {
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resultados {
+    display: flex;
+}
+
+input {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0;
+    color: var(--cor1);
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+input::placeholder {
+    color: var(--cor1);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: var(--cor1);
+    font-family: 'Sofia Pro', sans-serif;
+}
