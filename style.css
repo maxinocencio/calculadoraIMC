@@ -60,3 +60,8 @@ button {
     color: var(--cor1);
     font-family: 'Sofia Pro', sans-serif;
 }
+
+img {
+    width: 300px;
+    margin: 10px 0 0;
+}
