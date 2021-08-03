@@ -21,7 +21,7 @@ $(document).ready (function() {
       $("#altura").fadeOut(0);
       $("#btnAltura").fadeOut(0);
       $("#result").fadeIn(0);
-      
+      $("#tabela").fadeIn(0);     
       });
    
     
